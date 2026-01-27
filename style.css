@@ -8,7 +8,12 @@ header {
   color: #553100;
   display: flex;
   justify-content: space-between;
-  
+  font-family: Calibri;
+  font-weight: bold;
+  h1 {
+    margin-left: 20px;
+    font-size: xx-large;
+  }
   button {
     display: inline;
     padding: 10px 20px;
@@ -26,6 +31,9 @@ main {
   justify-content: space-evenly;
   
 }
+main section {
+  width: 300px;
+}
 section{
   display: flex;
   flex-direction: column;
@@ -33,6 +41,7 @@ section{
   justify-content: center;
   background-color: white;
   padding: auto;
+  font-family: Calibri;
   box-shadow: 5px 5px 15px rgb(0, 0, 0);
   h3 {
     text-align: center;
@@ -43,12 +52,13 @@ section{
   button {
     align-self: center;
     flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
+    display: block;
+    justify-content: wrap;
+    width: 100%;
     padding: 10px 30px;
     margin: 20px;
     border: black 3px solid;
-
+    
   }
 }
 body {
