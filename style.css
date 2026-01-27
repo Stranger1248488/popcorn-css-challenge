@@ -42,8 +42,13 @@ section{
   }
   button {
     align-self: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
     padding: 10px 30px;
-    margin: auto 20px;
+    margin: 20px;
+    border: black 3px solid;
+
   }
 }
 body {
