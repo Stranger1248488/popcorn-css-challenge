@@ -3,3 +3,49 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+header {
+  background-color: #ffdbaa;
+  color: #553100;
+  display: flex;
+  justify-content: space-between;
+  
+  button {
+    display: inline;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+  }
+}
+button {
+  background-color: #805215;
+  color: white;
+  font-size: large;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+section{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  background-color: white;
+  padding: auto;
+  box-shadow: 5px 5px 15px rgb(0, 0, 0);
+  h3 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  button {
+    align-self: center;
+    padding: 10px 30px;
+    margin: auto 20px;
+  }
+}
+body {
+  background-color: #d4a76a;
+}
